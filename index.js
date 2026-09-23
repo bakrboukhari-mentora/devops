@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from my CI/CD Pipeline on Vercel!');
+  res.send('Hello from devops course');
 });
 
 // Important for local development, but Vercel will handle routing in production
